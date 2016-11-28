@@ -1,6 +1,8 @@
 function card2code(data::Array{UTF8String})
     
+    n = size(data,1) # test 1
     
+    out = Array{UTF8String}(n)
     
     comb1bis=['♡' '♢' '♣' '♠']
     comb2bis=['2' '3' '4' '5' '6' '7' '8' '9' 'T' 'J' 'Q' 'K' 'A']
