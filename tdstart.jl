@@ -1,6 +1,6 @@
 function card2code(data::Array{UTF8String})
     
-    n = size(data,1) # test 1
+    n = size(data,1) # test 2
     
     out = Array{UTF8String}(n)
     
